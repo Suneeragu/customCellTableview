@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         fruitsTableview.delegate = self
         fruitsTableview.dataSource = self
+        print(fruitsArr)
     }
 
 }
