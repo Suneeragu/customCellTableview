@@ -28,7 +28,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return fruitsArr.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 80
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let Cell = tableView.dequeueReusableCell(withIdentifier: "FruitsCell", for: indexPath) as! FruitsTableViewCell
